@@ -1,0 +1,285 @@
+Matplotlib was created by John Hunter, an American neurobiologist, and was originally developed as an EEG/ECoG visualization tool.
+True.
+
+The Backend_Bases, Artist, and Scripting Layers are the three layers that make up the Matplotlib architecture.
+True.
+
+Bar charts are less confusing than pie charts and should be your first attempt when creating a visual to explore a dataset. 
+TRUE
+
+Using the notebook backend, you cannot modify a figure after it is rendered.
+False
+
+Histograms are a good way to understand how values or a variable are distributed, and which sorts of data preparation may be needed to make the variable more useful in a model. 
+For example, for a categorical variable that has too many distinct values to be informative in a model, the histogram would help them decide how to consolidate those values.
+
+The Data Understanding stage encompasses sorting the data.
+Incorrect. Sorting data is not part of the Data Understanding stage.
+
+Feature engineering is also part of data preparation. It is the process of using domain knowledge of the data to create features that make the machine learning algorithms work. 
+A feature is a characteristic that might help when solving a problem.
+
+The Data Requirements stage of the data science methodology involves identifying the necessary data content, formats and sources for initial data collection.
+Ans: True.
+
+
+In the Data Collection stage, the business understanding of the problem is revised and decisions are made as to whether or not more data is needed.
+Ans: False.
+
+Data Modelling focuses on developing models that are either descriptive or predictive.
+An example of a descriptive model might examine things like: if a person did this, then they're likely to prefer that.
+A predictive model tries to yield yes/no, or stop/go type outcomes.
+
+Model evaluation can have two main phases: a diagnostic measures phase and statistical significance testing. True.
+
+1. Select the correct statement.
+Ans: A methodology is a system of methods used in a particular area of study or activity.
+
+2. The first stage of the data science methodology is Data Understanding.
+Ans: False.
+
+3. Business Understanding is an important stage in the data science methodology. Why?
+Ans:
+Because it involves domain expertise.
+Because it clearly defines the problem and the needs from a business perspective.
+Because it ensures that the work generates the intended solution.
+Because it shapes the rest of the methodological steps.
+
+4. Which of the following statements about the analytic approach are correct?
+Ans:
+If the question defined in the business understanding deals with exploring relationships
+between different factors, then a descriptive approach, where clusters of similar activities
+based on events and preferences are examined, would be the right analytic method.
+If the question defined in the business understanding stage can be answered by determining
+probabilities of an action, then a predictive model would be the right analytic approach.
+
+5. For the case study, a decision tree classification model was used to identify the
+combination of conditions leading to each patient's outcome.
+Ans: True.
+
+1. Which of the following analogies is used in the videos to explain the Data Requirements
+and Data Collection stages of the data science methodology?
+Ans: You can think of the Data Requirements and Data Collection stages as a cooking task,
+where the problem at hand is a recipe, and the data to answer the question is the ingredients.
+
+2. The Data Requirements stage of the data science methodology involves identifying the
+necessary data content, formats and sources for initial data collection.
+Ans: True.
+
+3. Which of the following statements are correct?
+Ans:
+Data scientists determine how to collect the data.
+Data scientists identify the data that is required for data modeling.
+Data scientists determine how to prepare the data.
+
+4. In the Data Collection stage, the business understanding of the problem is revised and
+decisions are made as to whether or not more data is needed.
+Ans: False.
+
+5. In the Data Collection stage, techniques such as descriptive statistics and visualization can
+be applied to the data set, to assess the content, quality, and initial insights about the data
+Ans: True.
+
+1. Select the correct statement.
+Ans: A training set is used for predictive modeling.
+
+2. A statistician calls a false-negative, a type I error, and a false-positive, a type II error.
+Ans: False - type 1 le type 2 değişirse True
+
+3. The Modeling stage is followed by the Analytic Approach stage.
+Ans: False.
+
+4. Model Evaluation includes ensuring that the data are properly handled and interpreted.
+Ans:True.
+
+5. Select the correct statements about the ROC curve?
+Ans:
+The ROC curve is a useful diagnostic tool for determining the optimal classification model.
+By plotting the true-positive rate against the false-positive rate for different values of the
+relative misclassification cost, the ROC curve can be used to select the optimal model.
+ROC stands for Receiver Operating Characteristic curve, which was originally developed to
+detect enemy air-crafts on radar.
+
+1. The Data Understanding stage refers to the stage of removing redundant data.
+Ans: True.
+
+2. In the case study, working through the Data Understanding stage, it was revealed that the
+initial definition was not capturing all of the congestive heart failure admissions that were
+expected, based on clinical experience.
+Ans: True.
+
+3. The Data Preparation stage encompasses all activities related to constructing the data set.
+Ans: False.
+
+4. Select the correct statement about what data scientists and database administrators
+(DBAs) do during the Data Preparation stage.
+Ans:
+During the Data Preparation stage, data scientists and DBAs define the variables to be used in
+the model.
+During the Data Preparation stage, data scientists and DBAs determine the timing of events.
+During the Data Preparation stage, data scientists and DBAs aggregate the data and merge
+them from different sources.
+During the Data Preparation stage, data scientists and DBAs identify missing data.
+All of the above statements are correct.
+
+5. The Data Preparation stage is a very iterative and complicated stage that cannot be
+accelerated through automation.
+Ans: False.
+
+1. The final stages of the data science methodology are an iterative cycle between Modelling,
+Evaluation, Deployment, and Feedback.
+Ans: True
+
+2. Feedback is not required once the model is deployed because the Model Evaluation stage
+would have assessed the model and made sure that it performed well.
+Ans: False.
+
+3. Deploying a model into production represents the end of the iterative process that
+includes Feedback, Model Refinement, and Redeployment.
+Ans: True (wrong)
+
+4. The data science methodology is a specific strategy that guides processes and activities
+relating to data science only for text analytics.
+Ans: False.
+
+5. A data scientist determines that building a recommender system is the solution for a
+particular business problem at hand. What stage of the data science methodology does this
+represent?
+Ans: Analytic Approach.
+
+6. A car company asked a data scientist to determine what type of customers are more likely
+to purchase their vehicles. However, the data comes from several sources and is in a
+relatively “raw format”. What kind of processing can the data scientist perform on the data
+to prepare it for the Modeling stage?
+Ans:
+Addressing missing/invalid values.
+Feature engineering.
+Combining the data from the various sources.
+Transforming the data into more useful variables.
+
+7. What do data scientists typically use for exploratory analysis of data and to get
+acquainted with it?
+Ans: They use descriptive statistics and data visualization techniques.
+
+8. Data scientists may frequently return to a previous stage to make adjustments, as they
+learn more about the data and the modeling.
+Ans: True.
+
+9. For predictive models, a test set, which is similar to – but independent of – the training
+set, is used to determine how well the model predicts outcomes. This is an example of what
+step in the methodology?
+Ans: Model Evaluation.
+
+10. Why should data scientists maintain continuous communication with business sponsors
+throughout a project?
+Ans:
+So that business sponsors can review intermediate findings.
+So that business sponsors can ensure the work remains on track to generate the intended
+solution.
+So that business sponsors can provide domain expertise.
+
+3. Which of the following plots is a great way to visualize data in relation to whole, or to highlight progress against a given threshold?
+Ans: Waffle Chart.
+
+4. The easiest way to create a waffle chart in Python is using the Python package, PyWaffle.
+Ans: True
+
+5. A word cloud is a depiction of the meaningful words in some textual data, where the more a specific word appears in the text, bigger and bolder it appears in the word cloud.
+Ans: True
+
+1. Stamen Terrain, Stamen Toner, and Mapbox Bright, are three tile styles of Folium maps.
+Ans: True
+
+2. What tile style of Folium maps is useful for data mashups and exploring river meanders and coastal zones?
+Ans: Stamen Toner
+
+3. You cluster markers superimposed onto a map in Folium using a marker cluster object.
+Ans: True
+
+5. A choropleth map is a thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable being displayed on the map.
+Ans: True
+
+3. Business Understanding is an important stage in the data science methodology. Why?
+Ans:
+Because it involves domain expertise.
+Because it clearly defines the problem and the needs from a business perspective.
+Because it ensures that the work generates the intended solution.
+Because it shapes the rest of the methodological steps.
+
+4. Which of the following statements about the analytic approach are correct?
+Ans:
+If the question defined in the business understanding deals with exploring relationships between different factors, then a descriptive approach, where clusters of similar activities based on events and preferences are examined, would be the right analytic method.
+If the question defined in the business understanding stage can be answered by determining probabilities of an action, then a predictive model would be the right analytic approach.
+
+low Log Loss means a low uncertainty/entropy of your model. Log Loss is similar to the Accuracy, but it will favor models that distinguish more strongly the classes.
+
+The Data Understanding stage encompasses sorting the data.
+Incorrect. Sorting data is not part of the Data Understanding stage.
+
+The Data Requirements stage of the data science methodology involves identifying the necessary data content, formats and sources for initial data collection.
+Ans: True.
+
+In the Data Collection stage, the business understanding of the problem is revised and decisions are made as to whether or not more data is needed.
+Ans: False.
+
+Data Modelling focuses on developing models that are either descriptive or predictive.
+An example of a descriptive model might examine things like: if a person did this, then they're likely to prefer that.
+A predictive model tries to yield yes/no, or stop/go type outcomes.
+
+Model evaluation can have two main phases: a diagnostic measures phase and statistical significance testing. 
+True.
+
+Why is the business understanding stage important?
+Your Answer:  It helps clarify the goal of the entity asking the question.
+
+why is the analytic approach stage important?
+Ans: It helps us during choosing the most suitable model that will solve our problem in the most efficient way.
+
+inplace paramater -> do oyu want to overwrite the existing dataframe? if your answer yes, inplace=True otherwise inplace=False
+
+exploratory data analysis(EDA)
+- summarize main Characteristics of the data
+- gain better understanding of the data set
+- uncover relationships between variables
+- extract important variables
+
+What is correlation?
+Measures to what extentent different variables are interdependent
+correlation doesn't imply causation
+
+pearson correlation
+measure the strength of the correlation between two features. strong correlation : p values less than 0.001 and correlation coefficient close to 1 or -1
+
+analysis of Variance(ANOVA) in w4 -> f-test
+- finding correlation between different groups of a categorical variables
+
+Why regression?
+Regression analysis consists of a set of machine learning methods that allow us to predict a continuous outcome variable (y) based on the value of one or multiple predictor variables (x).
+Briefly, the goal of regression model is to build a mathematical equation that defines y as a function of the x variables. 
+Next, this equation can be used to predict the outcome (y) on the basis of new values of the predictor variables (x).
+
+
+Compare MLR and SLR - in w4 133 compare - simple Linear regression and multiple Linear regression
+
+information gain: information gain is the information that can increase the level of certainty after splitting
+information gain = entropy before split - weighted entropy after split   in w6 at 113
+
+
+big data :
+The term “big data” refers to data that is so large, fast or complex that it’s difficult or impossible to process using traditional methods. 
+The act of accessing and storing large amounts of information for analytics has been around a long time
+
+Why Is Big Data Important?
+The importance of big data doesn’t revolve around how much data you have, but what you do with it. You can take data from any source and analyze it to find answers that enable 
+1) cost reductions, 2) time reductions, 
+3) new product development and optimized offerings, and 4) smart decision making. When you combine big data with high-powered analytics, you can accomplish business-related tasks such as:
+    Determining root causes of failures, issues and defects in near-real time.
+    Generating coupons at the point of sale based on the customer’s buying habits.
+    Recalculating entire risk portfolios in minutes.
+    Detecting fraudulent behavior before it affects your organization.
+
+wihich of the following is true of the R-Squared metric?
+T-The best possible is 1.0
+F-A model that always predicts the mean of y would get a negative  score
+F-A model that always predict the mean of y would get a score 0.0
+T-The worst possible score is 0.0
