@@ -1,3 +1,417 @@
+
+Midterm Exam Question
+
+
+Although the analytics approach is the second stage of the data science methodology, it is still independent of the business understanding stage.
+False
+
+Establishing a clearly defined question starts with understanding the goal of the person asking the question.
+True
+ 
+ 
+The data science methodology is highly iterative, ensuring the refinement at each stage in the game.
+True
+
+ 
+Before the model is evaluated and the data scientist is confident it will work, it is deployed and put to the ultimate test.
+False
+ 
+In the case study (mentioned in the lecture), the target variable was congestive heart failure (CHF) with 45 days following discharge from CHF hospitalization.
+False
+
+Congestive heart failure patients with other significant medical conditions were included in the study in order to increase the sample size of the patients included in the study. Note: Give your answer based on the scenario mentioned in the lecture.
+False
+ 
+When collecting data, it is alright to defer decisions about unavailable data, and attempt to acquire it at a later stage.
+True
+ 
+ 
+The data preparation stage is the least time-consuming phase of a data science project, typically taking between 5 to 10 percent of the overall project time.
+False
+ 
+ 
+The data understanding stage encompasses sorting the data.
+False
+
+ 
+Model evaluation can have two main phases: a diagnostic measures phase and statistical significance testing.
+True
+
+
+What is an important difference between lists and tuples?
+A-Tuples can only have integers
+B-List and tuples are the same
+C-List can't contain strings
+Answer:D-Lists are mutable tuples are not
+
+
+What is correlation?
+A-It measures causal relationships between variables
+Answer:B-It measures to what extent different variables are independent
+
+
+The easiest way to create a waffle chart in Python is using the Python package, PyWaffle.
+True
+ 
+ 
+Stamen Terrain is the right tile style of Folium maps for visualizing and exploring river meanders and coastal zones of a given geographical area.
+False
+
+Using the notebook backend, you cannot modify a figure after it is rendered.
+False
+ 
+ 
+Data visualizations are used to (check all that apply):
+Answer1:A-Support recommendations to different stakeholders
+B-Perform data analytics and build predictive models
+Answer2:C-Explore a given data set
+D-Train and test a machine learning algorithm
+Answer3:E-Share unbiased representation of data
+ 
+ 
+Area plots are stacked by default.
+True
+ 
+A waffle chart is a great way to visualize data in relation to a whole, or to highlight progress against a given threshold.
+True
+
+
+Which approach can be used to calculate dissimilarity of objects in clustering? (Check all that apply)
+Euclidian distance
+None
+Minkowski distance
+Cosine similarity
+
+Doğru cevap
+Minkowski distance
+Euclidian distance
+Cosine similarity
+
+
+Which of the following is an application of clustering? (Check all that apply)
+Answer:A-Customer segmentation
+B-Sales prediction
+C-Price estimation
+D-Customer churn prediction
+
+
+Multiple Linear Regression is appropriate for:
+Answer:1-Predicting tomorrow's rainfall amount based on the wind speed and temperature
+B-Predicting whether a drug is effective for a patient based on her characteristics
+C-None
+D-Predicting the sales amount based on month
+ 
+Which one IS NOT a sample of classification problem? (Check all that apply)
+Answer:1-To predict the amount of money a customer will spend in one year
+B-To predict whether a customer responds to a particular advertising campaign or not
+C-To predict whether a customer switches to another provider/band
+D-To predict the category to which a customer belongs to
+
+_____________________________________________________
+
+
+Machine Learning decision
+______ output is determined by decoding complex patterns residing in the data that was provided as input. Machine learning utilizes exposure to data to improve decision outcomes.
+
+Machine Learning
+A key characteristic of _____ is the concept of self-learning. This refers to the application of statistical modelling to detect patterns and improve performance based on data and empirical information; all without direct programming commands. (Think about the Titantic exercise, where you were provided a set of test data and training data, you used the training data to train you model based on the labels you picked, and then verified the model validity with the test data)
+
+Self-learning
+An example of a _____ model is a system for detecting spam email messages. With initial data input, the model can learn to block emails with suspicious subject lines and body text containing certain keywords. Errors are prevented in ML as it incorporates exposure to data to refine its model, adjust its assumptions, and respond appropriately to unique data points.
+
+Training data
+______ data - data that is used to train a predictive model and that therefore must have known values for the target variable of the model. The model sees and learns from this data.
+
+Test data
+______ data - the sample of data used to provide an unbiased evaluation of a final model fit on the training data set. It is only used once a model is completely trained(using the train and validation sets). The test set is generally what is used to evaluate competing models (For example on many Kaggle competitions, the validation set is released initially along with the training set and the actual test set is only released when the competition is about to close, and it is the result of the the model on the Test set that decides the winner)
+
+Hyperparameters
+_______ are variables that we need to set before applying a learning algorithm to a data set. They define higher level concepts about the model such as complexity, or capacity to learn. They cannot be learned directly from the data in the standard model training process and need to be predefined. They can be decided by setting different values, training different models, and choosing the values that test better.
+eg.
+Number of leaves or depth of a tree
+Number of latent factors in a matrix factorization
+Learning rate (in many models)
+
+Model parameter
+A _________ is a configuration variable that is internal to the model and whose value can be estimated from the given data.
+- They are required by the model when making predictions.
+- Their values define the skill of the model on your problem.
+- They are estimated or learned from data.
+
+Supervised Learning
+_____ learning comprises learning patterns from labeled datasets and decoding the relationship between input variables (independent variables) and their known output (dependent variable) eg. The Titanic exercise, the age, gender, location of the passengers could have different impacts to their eventual fate.
+eg 2. The supply of oil (X aka independent variable) impacts the cost of fuel (Y dependent variable). Since both input and output values are known, that qualifies the dataset as "labeled". The algorithm then deciphers patterns that exists between the input and output values.
+
+Supervised learning
+For ______ learning, after the machine deciphers the rules and patterns from the input and output data, it developers a model; an algorithmic equation for producing an outcome with new data based on the underlying trends and rules learned from the training data. Eg. By studying the relationship between (x) such as year of make, model, brand, mileage, and the selling price (y), the machine can determine the relationship between Y (output) and the X-es (output - characteristics).
+
+Common supervised learning algorithms
+Regression analysis (linear regression, logistic regression, non-linear regression), decision trees, k-nearest neighbors, neural networks, and support vector machines.
+
+Unsupervised Learning
+_______ learning, the output variables are unlabeled, and combination of input and output variables are consequently unknown. This learning method instead focus on analyzing relationships between input variables and uncover hidden patterns that can be extracted to create new labels. Eg. Recognizing different cat photos from a pile of random photos.Unsupervised learning
+The advantage of ________ it allows for the discovery of patterns that were initially undetected. It is particularly compelling in the domain of fraud detection - Most dangerous attacks are those yet to be classified. Supervised learning model can utilize common fraud detection variables, but sophisticated cyber criminals know how to get around it. ______ learning can analyze patterns across millions of accounts and identify suspicious connections between users (input) - without knowing the actual category of future attacks (output). Eg. It can pick out a pool of newly registered users with the same profile picture - > This does not mean anything aka does not have an output but is highly suspicious. By identifying subtle correlations across users, _____ learning can detect anomalies better than supervised learning.
+Common unsupervised learning algorithms
+K-means clustering, social network analysis and descending dimension algorithms.
+
+Reinforcement Learning
+_______ learning builds a prediction model by gaining feedback through random trial and error and leveraging insight from previous iterations. The goal of _____ learning is to achieve a specific goal (output) by randomly trialing a vast number of possible input combinations and grading their performance.
+Q-Learning
+A algorithmic example of reinforcement learning. In __ learning, you start with a set environment of states, represented as "A". In Pac-man, for example, states could be the challenges, obstacles, walls or pathways presented. The set of possible action to react to these states is referred to as "A". The model's starting symbol is "Q" and it starts with a value of 0. In Pac-man, Q could drop which means an action has led to a negative result. When Q increases, that means the action has resulted in a positive outcome. In this learning experience we want the Q to be as high as possible, which means the machine learns to produce more positive results over time.
+
+Feature
+A distinctive attribute or aspect. A data table contains data organized in rows and columns. Contained in each column is a ________. It is also known as a variable, dimension or an attribute, they all mean the same thing. Eg. a table that contains student info, DOB column and name column are the ________ of this data set. Each row of data represent a single observation of a given _________.
+
+Vector
+In a table, each column is known also as a _____. _____ store X and Y values and multiple _____ are commonly referred to as matrices.
+
+Supervised learning
+In the case of ___________ learning, Y already exist in the dataset and will be used to identify patterns in relation to the independent variable (X). The Y values are commonly expressed in the final column.
+Unsupervised Learning - The machine needs lots of data to make the observations on its own.
+With what type of learning will you need to have access to a lot of data?
+
+Supervised Learning
+To understand and predict the time it takes to drive home, this learning method looks at variables such as weather, departure time, and occasion (holiday) to determine the relationships between input and output (commute time) -> Eg. The direct relationship between weather and commute time. -> Machine begins to understand concepts such as how rain can affect how people drive or how leaving the office at 5pm and 4pm can impact commute due to the difference in number of ppl on the road. You can ask the machine how long it'll take to drive home each day, and give it feedback on how accurate it is. Overtime, the machine will learn and adapt its model to improve the output.
+
+Unsupervised learning
+Learning and improving by trial and error is key to ________ learning. Different algorithms are used to let the machine create connections by studying and observing the data. Eg. When trying to cluster a bag of unknown candies, we can look at what data is available to us and group them by size and/or wrapping color.
+
+Semi-supervised Learning
+______ learning are trained on a combination of labeled and unlabeled data. Since adding labels for massive amounts of data (supervised learning) is time consuming and expensive. Also, human bias can happen when processing too many labels. Including unlabeled data can improve the accuracy of the final model and reduce time and cost.
+
+Semi-supervised
+______ learning is good for use cases like web page classification, speech recognition, or genetic sequencing. In these use cases data scientist can access large volumes of unlabeled data, but adding labels to all the data is an insurmountable task.
+
+Supervised Classification
+A webpage classification example: _________ classification: The algorithm learns to assign labels to types of web pages based on the labels that were inputted by a human during the training process.
+
+Unsupervised clustering
+A webpage classification example: ______ clustering: The algorithm looks at inherent similarities between webpages to place them into groups
+
+Semi-supervised classification
+A webpage classification example: _________ classification: Labeled data is used to help identify that there are specific groups of webpage types present in the data and what they might be. The algorithm is then trained on unlabeled data to define the boundaries of those webpage types and may even identify new types of webpages that were unspecified in the existing human-inputted labels.
+
+Machine Learning Framework
+ML learning via the training framework, during this process it selects the best model that produce the most accurate result. Then, we test the selected model by introducing data that wasn't part of the training set. In this case, a new cat pic. The expected result is that the machine should be able to recognize this pic contains a cat, and not a monkey or a dog.
+
+Regression
+______ models are used to predict a continuous value. Predicting prices of a house given the features of house like size, price etc is one of the common examples of Regression. It is a supervised technique.
+
+Linear
+Y = a + bX. This is a _____ regression hypothesis. _____ regression aims to predict target variable Y based on input variable X. Consider predicting the salary of an employee based on his/her age. We can easily identify that there seems to be a correlation between employee's age and salary. Y represents salary, X is employee's age and a and b are the coefficients of equation. So in order to predict Y (salary) given X (age), we need to know the values of a and b (the model's coefficients) aka the age data and the salary data.
+
+Classification
+This image is an example of which type of machine learning method?
+
+Clustering
+It is basically a type of unsupervised learning method . An unsupervised learning method is a method in which we draw references from data sets consisting of input data without labeled responses. Generally, it is used as a process to find meaningful structure, explanatory underlying processes, generative features, and groupings inherent in a set of examples.
+_________ is the task of dividing the population or data points into a number of groups such that data points in the same groups are more similar to other data points in the same group and dissimilar to the data points in other groups. It is basically a collection of objects on the basis of similarity and dissimilarity between them.
+
+Unsupervised
+_______ learning main applications are:
+- Segmenting datasets by some shared attributes.
+- Detecting anomalies that do not fit to any group.
+- Simplify datasets by aggregating variables with similar attributes.
+
+In summary, the main goal is to study the intrinsic (and commonly hidden) structure of the data.
+
+unsupervised
+These _______ learning algorithms have an incredible wide range of applications and are quite useful to solve real world problems such as anomaly detection, recommending systems, documents grouping, or finding customers with common interests based on their purchases.
+
+Classification
+_____ is the process of learning a model that elucidate different predetermined classes of data. It is a two-step process, comprised of a learning step and a classification step. In learning step, a classification model is constructed and classification step the constructed model is used to prefigure the class labels for given data.
+clustering
+
+______ is a technique of organizing a group of data into classes and clusters where the objects reside inside a cluster will have high similarity and the objects of two clusters would be dissimilar to each other. Here the two clusters can be considered as disjoint. The main target of ______ is to divide the whole data into multiple clusters. Unlike classification process, here the class labels of objects are not known before, and _____ pertains to unsupervised learning.
+
+Unsupervised
+______ learning helps you find inspiration in data by grouping similar things together for you. There are many different ways of defining similarity, so keep trying algorithms and settings until a cool pattern catches your eye.
+
+Labels
+_____ is what we need the computer to learn to output. Eg. Cat, dog, car, truck. When we ask the machine/computer a question, we need answers in certain formats so that it is relevant and can be useful to us when making decisions.
+
+Features
+______ are like characteristics. It is the inputs that the computer will be learning from. Think about when we show pictures to the computer, the ______ could be the different colors in those pictures. Whereas the labels will be the actual content in the pictures.
+
+R-squared
+_______ is a statistical measure of how close the data are to the fitted regression line. It is also known as the coefficient of determination, or the coefficient of multiple determination for multiple regression.
+The definition of _____ is fairly straight-forward; it is the percentage of the response variable variation that is explained by a linear model. Or:
+R-squared = Explained variation / Total variation
+R-squared is always between 0 and 100%:
+0% indicates that the model explains none of the variability of the response data around its mean. 100% indicates that the model explains all the variability of the response data around its mean. In general, the higher the ________, the better the model fits your data
+
+time series
+A _________ is a sequence of observations taken sequentially in time. ______ forecasting involves taking models then fit them on historical data then using them to predict future observations.
+
+time series
+The objective of a predictive model is to estimate the value of an unknown variable. A _________ has time (t) as an independent variable (in any unit you can think of) and a target dependent variable . The output of the model is the predicted value for y at time t .
+Whenever data is recorded at regular intervals of time, it is called a _____. You can think of this type of variable in two ways:
+The data is univariate, but it has an index (time) that creates an implicit order; or
+The dataset has two dimensions: the time (independent variable) and the variable itself as dependent variable.
+
+loss function
+A _________ in Machine Learning is a measure of how accurately your ML model is able to predict the expected outcome i.e the ground truth.
+The ________ will take two items as input: the output value of our model and the ground truth expected value. The output of the ______is called the loss which is a measure of how well our model did at predicting the outcome. A high value for the loss means our model performed very poorly. A low value for the loss means our model performed very well.
+
+Mean Squared Error (MSE)
+_____ is a loss function. To calculate the ____, you take the difference between your model’s predictions and the ground truth, square it, and average it out across the whole dataset.
+The _____ will never be negative, since we are always squaring the errors.
+Advantage: The _____ is great for ensuring that our trained model has no outlier predictions with huge errors, since the _____ puts larger weight on theses errors due to the squaring part of the function.
+Disadvantage: If our model makes a single very bad prediction, the squaring part of the function magnifies the error. Yet in many practical cases we don’t care much about these outliers and are aiming for more of a well-rounded model that performs good enough on the majority.
+
+Mean Absolute Error (MAE)
+A loss function. To calculate the ____, you take the difference between your model’s predictions and the ground truth, apply the absolute value to that difference, and then average it out across the whole dataset.
+The ___ , like the MSE, will never be negative since in this case we are always taking the absolute value of the errors.
+Advantage: The beauty of the ___ is that its advantage directly covers the MSE disadvantage. Since we are taking the absolute value, all of the errors will be weighted on the same linear scale. Thus, unlike the MSE, we won’t be putting too much weight on our outliers and our loss function provides a generic and even measure of how well our model is performing.
+Disadvantage: If we do in fact care about the outlier predictions of our model, then the ___ won’t be as effective. The large errors coming from the outliers end up being weighted the exact same as lower errors. This might results in our model being great most of the time, but making a few very poor predictions every so-often.
+
+Huber Loss
+Now we know that the MSE is great for learning outliers while the MAE is great for ignoring them. But what about something in the middle?
+Consider an example where we have a dataset of 100 values we would like our model to be trained to predict. Out of all that data, 25% of the expected values are 5 while the other 75% are 10.
+An MSE loss wouldn’t quite do the trick, since we don’t really have “outliers”; 25% is by no means a small fraction. On the other hand we don’t necessarily want to weight that 25% too low with an MAE. Those values of 5 aren’t close to the median (10 — since 75% of the points have a value of 10), but they’re also not really outliers.
+Our solution?
+The _____ Function.
+The _____ offers the best of both worlds by balancing the MSE and MAE together. For loss values less than delta, use the MSE; for loss values greater than delta, use the MAE. This effectively combines the best of both worlds from the two loss functions!
+
+RMSE (Root Mean Square Error)
+A popular loss function, a regression metric. _____ represents the sample standard deviation of the differences between predicted values and observed values (called residuals). However, even after being more complex and biased towards higher deviation, _____ is still the default metric of many models because loss function defined in terms of _____is smoothly differentiable and makes it easier to perform mathematical operations.
+
+Deviance
+_____ is a metric associated primarily with categorical response models. Essentially, _____ measures the lack of fit between a model and your data. Another way to think of it is it being the departure of your data from the model.
+
+Root Mean Squared Logarithmic Error (RMSLE)
+______ is just an RMSE calculated in logarithmic scale. In fact, to calculate it, we take a logarithm of our predictions and the target values, and compute RMSE between them.
+______ is frequently considered as better metrics than MAPE, since it is less biased towards small targets, yet works with relative errors. This measurement is useful when there is a wide range in the target variable, and you do not necessarily want to penalize large errors when the predicted and target values are themselves high. It is also effective when you care about percentage errors rather than the absolute value of errors.
+
+AUC (Area Under The Curve) - ROC (Receiver Operating Characteristics)
+In Machine Learning, performance measurement is an essential task. So when it comes to a classification problem, we can count on an _____ Curve. When we need to check or visualize the performance of the multi - class classification problem, we use ________ curve. It is one of the most important evaluation metrics for checking any classification model’s performance.
+_____ curve is a performance measurement for classification problem at various thresholds settings. ROC is a probability curve and AUC represents degree or measure of separability. It tells how much model is capable of distinguishing between classes. Higher the AUC, better the model is at predicting 0s as 0s and 1s as 1s. By analogy, Higher the AUC, better the model is at distinguishing between patients with disease and no disease.
+
+Lift
+_____ is a measure of the performance of a targeting model (association rule) at predicting or classifying cases as having an enhanced response (with respect to the population as a whole), measured against a random choice targeting model. A targeting model is doing a good job if the response within the target is much better than the average for the population as a whole. Lift is simply the ratio of these values: target response divided by average response.
+For example, suppose a population has an average response rate of 5%, but a certain model (or rule) has identified a segment with a response rate of 20%. Then that segment would have a lift of 4.0 (20%/5%).
+
+_____ analysis is a way to measure how a campaign impacts a key metric. In mobile marketing, you could measure lift in engagement, in-app spend, or conversion frequency. Lift is calculated as the percent increase or decrease in each metric for users who received a new campaign versus a control group.
+
+Log loss
+_____ measures the performance of a classification model where the prediction input is a probability value between 0 and 1. The goal of our machine learning models is to minimize this value. A perfect model would have a log loss of 0. Log loss increases as the predicted probability diverges from the actual label. So predicting a probability of .012 when the actual observation label is 1 would be bad and result in a high _____. _____ heavily penalizes classifiers that are confident about an incorrect classification. For example, if for a particular observation, the classifier assigns a very small probability to the correct class then the corresponding contribution to the Log Loss will be very large indeed. Naturally this is going to have a significant impact on the overall Log Loss for the classifier. The bottom line is that it's better to be somewhat wrong than emphatically wrong. Of course it's always better to be completely right, but that is seldom achievable in practice!
+
+Time series
+______ is a forecasting technique that uses a series of past data points to make a forecast. It is a set of observations on the values that a variable takes at different times.
+Example: sales trend, stock market prices
+
+time series
+A ________ is a sequence of observations taken sequentially in time. Time series forecasting involves taking models then fit them on historical data then using them to predict future observations. Therefore, for example, min(s), day(s), month(s), ago of the measurement is used as an input to predict the next min(s), day(s), month(s). The steps that are considered to shift the data backward in the time(sequence), called lag times or lags. Therefore, a _________ problem can be transformed into a supervised ML by adding lags of measurements as inputs of the supervised ML.
+
+time series
+Take a look at the above transformed dataset and compare it to the original time series. Here are some observations:
+We can see that the previous time step is the input (X) and the next time step is the output (y) in our supervised learning problem.
+We can see that the order between the observations is preserved, and must continue to be preserved when using this dataset to train a supervised model.
+We can see that we have no previous value that we can use to predict the first value in the sequence. We will delete this row as we cannot use it.
+We can also see that we do not have a known next value to predict for the last value in the sequence. We may want to delete this value while training our supervised model also.
+The use of prior time steps to predict the next time step is called the sliding window method. For short, it may be called the window method in some literature. In statistics and time series analysis, this is called a lag or lag method.
+https://machinelearningmastery.com/time-series-forecasting-supervised-learning/
+
+Why Do We Need Time Series Sequential?
+Because Data Has Time Dependency.
+I.e., in order to predict a value at time t, we need to take into consideration the values recorded before time t.
+
+Why Do We Need Time Series IID
+Because We Believe Model Changes Over Time.
+I.e., the best model for January might be different from the model for february, and we want to find the best model over a period of, say, six month.
+
+The main challenges in model training are?
+Model selection and hyperparameter selection. Decanter automate these two processes -> significantly reduce cost and time needed for a ML project.
+
+Generalization
+________ refers to how well the concepts learned by a machine learning model apply to specific examples not seen by the model when it was learning.
+The goal of a good machine learning model is to generalize well from the training data to any data from the problem domain. This allows us to make predictions in the future on data the model has never seen.
+
+Overfitting
+_____ refers to a model that models the training data too well.
+_____ happens when a model learns the detail and noise in the training data to the extent that it negatively impacts the performance of the model on new data. This means that the noise or random fluctuations in the training data is picked up and learned as concepts by the model. The problem is that these concepts do not apply to new data and negatively impact the models ability to generalize.
+
+Bias
+_____ is the difference between the average prediction of our model and the correct value which we are trying to predict. Model with high ____ pays very little attention to the training data and oversimplifies the model. It always leads to high error on training and test data.
+
+Variance
+_____ is the variability of model prediction for a given data point or a value which tells us spread of our data. Model with high _____ pays a lot of attention to training data and does not generalize on the data which it hasn't seen before. As a result, such models perform very well on training data but has high error rates on test data.
+
+Why is Bias Variance Tradeoff?
+If our model is too simple and has very few parameters then it may have high bias and low variance. On the other hand if our model has large number of parameters then it's going to have high variance and low bias. So we need to find the right/good balance without overfitting and underfitting the data.
+
+Regularization
+_____ is a form of regression, that constrains/ regularizes or shrinks the coefficient estimates towards zero. In other words, this technique discourages learning a more complex or flexible model, so as to avoid the risk of overfitting. ______ significantly reduces the variance of the model, without substantial increase in its bias.
+
+Hold-out
+_______ validation is when you split up your dataset into a 'train' and 'test' set. The training set is what the model is trained on, and the test set is used to see how well that model performs on unseen data. A common split when using the hold-out method is using 80% of data for training and the remaining 20% of the data for testing.
+
+Cross-validation
+_______ or 'k-fold cross-validation' is when the dataset is randomly split up into 'k' groups. One of the groups is used as the test set and the rest are used as the training set. The model is trained on the training set and scored on the test set. Then the process is repeated until each unique group as been used as the test set.
+Hold-out vs. Cross-validation
+Cross-validation is usually the preferred method because it gives your model the opportunity to train on multiple train-test splits. This gives you a better indication of how well your model will perform on unseen data. Hold-out, on the other hand, is dependent on just one train-test split. That makes the hold-out method score dependent on how the data is split into train and test sets.
+The hold-out method is good to use when you have a very large dataset, you're on a time crunch, or you are starting to build an initial model in your data science project. Keep in mind that because cross-validation uses multiple train-test splits, it takes more computational power and time to run than using the holdout method.
+
+What is the ultimate purpose of feature engineering?
+All machine learning algorithms use some input data to create outputs. This input data comprise features, which are usually in the form of structured columns. Algorithms require features with some specific characteristic to work properly. Here, the need for feature engineering arises. I think feature engineering efforts mainly have two goals:
+Preparing the proper input dataset, compatible with the machine learning algorithm requirements.
+Improving the performance of machine learning models.
+Feature engineering example
+Suppose, we are given a data "flight date time vs status". Then, given the date-time data, we have to predict the status of the flight. As the status of the flight depends on the hour of the day, not on the date-time. We will create the new feature "Hour_Of_Day". Using the "Hour_Of_Day" feature, the machine will learn better as this feature is directly related to the status of the flight. Here, creating the new feature "Hour_Of_Day" is the feature engineering.
+
+Machine learning
+_______ is a way of programming an algorithm to predict or act in a way we want, without providing rules that the algorithm should follow. Instead, we provide data and desired response and we leave it to a computer to learn these rules by itself from provided examples.
+What is machine learning?
+ML systems learn how to combine input to produce useful predictions on never-before-seen data.
+
+label
+A ______ is the thing we're predicting—the y variable in simple linear regression. The _____ could be the future price of wheat, the kind of animal shown in a picture, the meaning of an audio clip, or just about anything.
+
+feature
+A _____ is an input variable—the x variable in simple linear regression. A simple machine learning project might use a single _____, while a more sophisticated machine learning project could use millions of features, specified as:
+x1,x2,...xN
+In the spam detector example, the _____ could include the following:
+words in the email text
+sender's address
+time of day the email was sent
+email contains the phrase "one weird trick."
+
+labeled example
+A __________ includes both feature(s) and the label. That is:
+
+"labeled examples: {features, label}: (x, y)"
+
+Use _________ to train the model. In our spam detector example, the _______ would be individual emails that users have explicitly marked as "spam" or "not spam."
+
+model
+A _____ defines the relationship between features and label. For example, a spam detection model might associate certain features strongly with "spam". Let's highlight two phases of a model's life:
+
+Training means creating or learning the _____.
+That is, you show the ______ labeled examples and enable the ______ to gradually learn the relationships between features and label.
+Inference means applying the trained model to unlabeled examples. That is, you use the trained model to make useful predictions (y'). For example, during inference, you can predict medianHouseValue for new unlabeled examples.
+
+regression
+A ______ model predicts continuous values. For example, _____ models make predictions that answer questions like the following:
+
+What is the value of a house in California?
+What is the probability that a user will click on this ad?
+
+classification
+A _____ model predicts discrete values. For example, classification models make predictions that answer questions like the following:
+
+Is a given email message spam or not spam?
+Is this an image of a dog, a cat, or a hamster?
+
+Mean square error (MSE)
+___________ is the average squared loss per example over the whole dataset. To calculate _____, sum up all the squared losses for individual examples and then divide by the number of examples
+
+r-squared
+The ________ value is a measure of how close the data are to the fitted regression line. It takes a value between 0 and 1, 1 meaning that all of the variance in the target is explained by the data. In general, a higher ________ value means a better fit.
+
+
+-----------------------------------------------------
+
+
 Matplotlib was created by John Hunter, an American neurobiologist, and was originally developed as an EEG/ECoG visualization tool.
 True.
 
